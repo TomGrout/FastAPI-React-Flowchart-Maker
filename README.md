@@ -3,14 +3,14 @@
 ## setup
 Run in terminal:
 
-cd frontend
-npm install
-npm run build 
+cd frontend  
+npm install  
+npm run build   
 
-cd ../backend 
-uvicorn  main:app --reload
+cd ../backend  
+uvicorn  main:app --reload  
 
-= working app!
+= working app!  
 -> frontend on port 3000
 -> backend on port 8000
 
