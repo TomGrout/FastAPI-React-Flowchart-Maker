@@ -5,10 +5,15 @@ Run in terminal:
 
 cd frontend  
 npm install  
-npm run build   
+npm run build  
+npm start   
 
-cd ../backend  
-uvicorn  main:app --reload  
+[open a new terminal instance]
+cd backend  
+python3 -m venv .venv
+source .venv/bin/activate
+pip install fastapi uvicorn
+uvicorn main:app --reload  
 
 = working app!  
 -> frontend on port 3000
